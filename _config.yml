@@ -115,8 +115,6 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/feed/@__jakegrigsby__
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -247,7 +245,7 @@ scholar:
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
 # Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
-max_author_limit: 4
+max_author_limit: 5
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
