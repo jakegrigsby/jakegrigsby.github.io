@@ -206,5 +206,18 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
+
+          {% if entry.key == "grigsby2025metamon" %}
+          <div class="spawned">
+            <svg class="spawn-arrow" viewBox="0 0 36 32" aria-hidden="true" focusable="false">
+              <path d="M4 2 C4 20 8 24 28 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M21 18 L29.5 24 L21 30" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="spawn-body">
+              <div class="spawn-role">Co-organizer</div>
+              {% bibliography -f papers -q @*[key=karten2025pokeagent] %}
+            </div>
+          </div>
+          {% endif %}
         </div>
       </div>
